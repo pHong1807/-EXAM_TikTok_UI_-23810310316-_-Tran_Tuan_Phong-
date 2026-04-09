@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     left: 80,
     right: 80,
     zIndex: 10,
-   
   },
   tabLabel: {
     fontSize: 15,

@@ -49,11 +49,10 @@ export default function ForYouScreen({ navigation }) {
         </TouchableOpacity>
 
         {/* Comment */}
-        {/* Comment */}
-<TouchableOpacity style={styles.actionItem} onPress={() => navigation.navigate('Comments')}>
-  <Ionicons name="chatbubble-ellipses" size={32} color="#fff" />
-  <Text style={styles.actionCount}>{VIDEO_DATA.comments}</Text>
-</TouchableOpacity>
+        <TouchableOpacity style={styles.actionItem} onPress={() => navigation.navigate('Comments')}>
+          <Ionicons name="chatbubble-ellipses" size={32} color="#fff" />
+          <Text style={styles.actionCount}>{VIDEO_DATA.comments}</Text>
+        </TouchableOpacity>
 
         {/* Share */}
         <TouchableOpacity style={styles.actionItem}>

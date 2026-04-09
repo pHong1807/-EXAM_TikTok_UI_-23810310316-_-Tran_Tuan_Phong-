@@ -135,7 +135,6 @@ export default function CommentsScreen() {
   return (
     <View style={[styles.container, { paddingTop: insets.top }]}>
       {/* Video Thumbnail Header */}
-      
 
       {/* Comments Panel */}
       <View style={styles.commentsPanel}>
